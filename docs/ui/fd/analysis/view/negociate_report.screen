@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" x="310" y="245" measuredWidth="800" measuredHeight="593" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../fd_base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Group" x="336" y="322" width="573" height="504" text="Negociate Report" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Button" x="812" y="793" width="79" text="Create" measuredWidth="79" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" x="497" y="498" width="172" height="40" text="To Be Determined" measuredWidth="172" measuredHeight="40">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="944" y="705" width="121" text="Negociation Report" measuredWidth="121" measuredHeight="23" background="#fce5cd">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

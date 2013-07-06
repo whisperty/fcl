@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" x="18" y="60" measuredWidth="800" measuredHeight="593" dimmed="true">
+    <screen xsi:type="model:Screen" href="../base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Group" x="640" y="145" width="157" height="128" text="Call 4 Bids" measuredWidth="157" measuredHeight="128"/>
+  <widgets xsi:type="model:Button" x="656" y="169" width="121" text="Call4Bid List" measuredWidth="121" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="657" y="203" width="121" text="Submission History" measuredWidth="121" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="657" y="238" width="121" text="Rate Files" measuredWidth="121" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

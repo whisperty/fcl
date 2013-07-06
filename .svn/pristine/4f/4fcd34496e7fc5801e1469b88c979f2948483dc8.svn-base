@@ -1,0 +1,86 @@
+<config>
+	<dataSource type="CSV">
+		<filename>data/data.csv</filename>
+	</dataSource>
+	<defaultSlice>
+		<axes>
+			<axis name="rows">
+				<hierarchy>
+					<dimensionName>[Country]</dimensionName>
+					<hierarchyName>[Country].[Country]</hierarchyName>
+				</hierarchy>
+				<hierarchy>
+					<dimensionName>[Category]</dimensionName>
+					<hierarchyName>[Category].[Category]</hierarchyName>
+				</hierarchy>
+				<hierarchy>
+					<dimensionName>[Measures]</dimensionName>
+					<hierarchyName>[Measures]</hierarchyName>
+				</hierarchy>
+			</axis>
+			<axis name="columns">
+				<hierarchy>
+					<dimensionName>[Color]</dimensionName>
+					<hierarchyName>[Color].[Color]</hierarchyName>
+				</hierarchy>
+			</axis>
+		</axes>
+		<measures>
+			<measure availableAggregations="sum, average">[Measures].[Price]</measure>
+			<measure>[Measures].[Discount]</measure>
+		</measures>
+	</defaultSlice>
+	
+	<style source="styles/grey.css" />
+
+	<params>
+		<param name="configuratorActive">on</param>
+		<param name="configuratorButton">on</param>
+		<param name="viewType">charts</param>
+		<param name="chartType">line</param>
+		<param name="showHeaders">on</param>
+		<param name="fitGridlines">off</param>
+		<param name="showTotals">on</param>
+		<param name="showGrandTotals">on</param>
+		<param name="sorting">on</param>
+		<param name="expandAll">off</param>
+		<param name="saveReportURL"><![CDATA[http://localhost/flex_demos/save.php]]></param>
+		<param name="localSettingsURL">local_settings.xml</param>
+		<param name="exportHTMLTemplateURL">styles/misc/export.html</param>
+		<param name="emptyDataWarning">off</param>
+		<param name="jsAutoSizeScript">autoSize</param>
+		<param name="chartTitle"></param>
+		<param name="gridTitle"></param>
+		<param name="logoURL"></param>
+		<param name="allowErrorLogging">off</param>
+		<param name="showChartZeroValues">on</param>
+	</params>
+	
+	<conditions>
+		<condition>
+			<![CDATA[if(#value > 100, "greenCell", "redCell")]]>
+		</condition>
+	</conditions>
+	
+ 	<format>
+		<param name="thousandsSeparator"><![CDATA[ ]]></param>
+		<param name="decimalSeparator"><![CDATA[.]]></param>
+		<param name="decimalPlaces">2</param> <!-- by default is -1. -1 means no formatting -->
+		<param name="maxSymbols">20</param> <!-- max number of symbols in cell. by default is 20. -->
+		<param name="currencySymbol"></param> <!-- if you want format numbers as currency -->
+		<param name="currencySymbolAlign">left</param> <!-- left or right / by default is left -->
+		<param name="nullValue"><![CDATA[ ]]></param>
+	</format>
+	
+	<format name="currency">
+		<param name="thousandsSeparator"><![CDATA[ ]]></param>
+		<param name="decimalSeparator"><![CDATA[.]]></param>
+		<param name="decimalPlaces">3</param> <!-- by default is -1. -1 means no formatting -->
+		<param name="maxSymbols">20</param> <!-- max number of symbols in cell. by default is 20. -->
+		<param name="currencySymbol">$</param> <!-- if you want format numbers as currency -->
+		<param name="maxDecimalPlaces">2</param>
+		<param name="currencySymbolAlign">left</param> <!-- left or right / by default is left -->
+		<param name="nullValue"><![CDATA[no value]]></param>
+	</format>
+	
+</config>

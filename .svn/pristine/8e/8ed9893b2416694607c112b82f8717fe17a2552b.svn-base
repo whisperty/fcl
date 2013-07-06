@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="52" y="137" width="573" height="504" text="Create New CPI Report" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Button" x="512" y="592" width="95" text="Generate" measuredWidth="95" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="176" text="Report Name:" measuredWidth="78" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="176" y="176" width="297" text="CPI Report 1" measuredWidth="297" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="416" y="592" width="81" text="Cancel" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="224" text="Compare From:" measuredWidth="88" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="176" y="240" text="Senario: " measuredWidth="67" measuredHeight="21" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="176" y="208" text="History Rate" measuredWidth="85" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="260" y="240" width="213" text="Senario 1" measuredWidth="213" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="296" text="Compare From:" measuredWidth="88" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="176" y="308" text="Senario: " measuredWidth="67" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="176" y="276" text="History Rate" measuredWidth="85" measuredHeight="21" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="260" y="308" width="213" text="Senario 2" measuredWidth="213" measuredHeight="21">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

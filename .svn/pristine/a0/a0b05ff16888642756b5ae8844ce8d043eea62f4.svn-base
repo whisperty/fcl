@@ -1,0 +1,130 @@
+/* CSS file */
+/*
+
+Plastic -Flex 4 theme built using Adobe Flash Catalyst Beta 2.
+by Harish Sivaramakrishnan (flexgeek) http://blog.flexgeek.in
+If you find sizing issues with any of the components, drop me
+an email hsivaramakrishnan@gmail.com
+
+*/
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace "com.bachk.flex.components.*";
+@font-face
+{
+	src: url("UbuntuTitling-Bold.ttf");
+	font-family: "Ubuntu";
+	font-weight: bold;
+	embedAsCFF: true;
+}
+@font-face
+{
+	src: url("UbuntuTitling-Bold.ttf");
+	font-family: "Ubuntu";
+	font-weight: normal;
+	embedAsCFF: true;
+}
+
+
+
+s|Application
+{
+	font-family: "Ubuntu";
+}
+
+
+s|List.menuList
+{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.DataList2");
+
+}
+
+
+s|List.defaultList
+{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.DataList1");
+
+}
+
+s|DataGrid
+{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.DataGrid1");
+	
+}
+s|HSlider
+{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.HorizontalSlider1");
+}
+s|VSlider
+{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.VerticalSlider1");
+}
+
+s|ToggleButton
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.ToggleButton1");
+	
+}
+s|CheckBox
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.Checkbox1");
+}
+GroupBox
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.GroupBoxSkin");
+}
+GroupBox.title
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.GroupBoxSkin2");
+}
+
+s|HScrollBar
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.HorizontalScrollbar1");
+}	
+s|VScrollBar
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.VerticalScrollbar5");
+}
+
+s|RadioButton
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.RadioButton1");
+}	
+s|Button
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.Button1");
+}	
+
+s|TextInput
+{
+	focusColor: #4fcce8;
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.TextInput1");
+}	
+
+PagingBar{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.PagingBarSkin");
+}
+s|ComboBox{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.ComboBox1");
+}
+s|ComboBoxGridItemEditor{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.ComboBox1");
+}
+s|DropDownList{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.DropDownList1");
+}
+FileUploader{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.FileUploaderSkin");
+}
+SlipOutPanel{
+	skinClass: ClassReference("com.bachk.flex.skin.planstic.components.SlipOutPanelSkin");
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="52" y="137" width="573" height="504" text="Benchmark" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Table" x="62" y="272" width="553" height="297" text=",Carrier, Rate&#xD;&#xA;[x],carrier_1, 2010-11-16 01:46:18.351 &#xD;&#xA;[],carrier_2, 2010-11-15 20:30:44.291 &#xD;&#xA;[x],carrier_3, 2010-12-03 18:31:13.641 &#xD;&#xA;[],carrier_4, 2010-12-04 00:19:05.327 " measuredWidth="553" measuredHeight="297" selection="5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="547" y="592" text="Generate" measuredWidth="68" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="64" y="216" width="113" text="The Random Rate:" measuredWidth="113" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="192" y="216" text="-5" measuredWidth="24" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="224" y="220" text="% to" measuredWidth="22" measuredHeight="13">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="256" y="216" text="5" measuredWidth="17" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" x="62" y="200" width="553" measuredWidth="553" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" x="64" y="168" text="The Latest Benchmark is generated in 2011-9-30 20:30:00  [[Download]]" measuredWidth="391" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="279" y="220" text="%" measuredWidth="8" measuredHeight="13">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" x="296" y="440" width="233" height="45" text="This field is a combobox, you can select the history rate of the carrier" measuredWidth="233" measuredHeight="45">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="64" y="592" text="Select All" measuredWidth="69" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="62" y="248" width="203" text="The Rate File to do the benchmark" measuredWidth="203" measuredHeight="21">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

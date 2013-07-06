@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="100" y="113" width="573" height="504" text="Shipments" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Table" x="120" y="144" width="535" height="121" text="Carrier, Full Name, Shipment Files&#xA;Carrier 1, Carrier 1, 3&#xA;Carrier 2, Carrier 2, 3&#xA;Carrier 3, Carrier 3, 3&#xA;Carrier 4, Carrier 4, 3&#xA;" measuredWidth="535" measuredHeight="121" selection="1">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="120" y="287" width="201" text="Shipment Files For Carrier 1" measuredWidth="201" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" x="120" y="313" width="535" height="256" text="Carrier, Month, Remark&#xA;Carrier 1, 1, ,[[Download]] [[Delete]]&#xA;Carrier 1, 2, ,[[Download]] [[Delete]]&#xA;Carrier 1,3, ,[[Download]] [[Delete]]&#xA;" measuredWidth="535" measuredHeight="256">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="512" y="578" width="143" text="Upload Shipment File" measuredWidth="143" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

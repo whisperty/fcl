@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="52" y="137" width="573" height="504" text="Create New Senario" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Button" x="481" y="592" width="126" text="Run Optimization" measuredWidth="126" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="176" text="Senario Name: " measuredWidth="86" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="176" y="176" width="297" text="Senario 1" measuredWidth="297" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="232" text="Constraint File: " measuredWidth="90" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="176" y="232" width="241" measuredWidth="241" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="424" y="231" text="Upload" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="392" y="592" width="81" text="Cancel" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="204" text="Allocation Type: " measuredWidth="95" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="256" y="204" text="Manual" measuredWidth="59" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="176" y="204" text="Auto" measuredWidth="46" measuredHeight="21" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="262" text="Allocation File:" measuredWidth="84" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="176" y="262" width="241" measuredWidth="241" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="424" y="261" text="Upload" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" x="176" y="336" width="281" height="65" text="When &quot;Auto&quot; Is checked, &quot;Constraint File&quot; is active, otherwise, &quot;Allocation File is active" measuredWidth="281" measuredHeight="65" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

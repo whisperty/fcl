@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="52" y="137" width="573" height="504" text="Forecast" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Button" x="504" y="592" width="103" text="Forecast" measuredWidth="103" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="176" text="Name: " measuredWidth="43" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="176" y="176" width="297" text="Forecast 1" measuredWidth="297" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="232" text="Base On" measuredWidth="48" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="414" y="592" width="81" text="Cancel" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="204" text="Forecast Type:" measuredWidth="83" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="256" y="204" text="Manual" measuredWidth="59" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="176" y="204" text="Auto" measuredWidth="46" measuredHeight="21" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="262" text="Adjust: " measuredWidth="47" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="176" y="262" width="241" measuredWidth="241" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="424" y="261" text="Upload" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="78" y="296" text="Forecast File:" measuredWidth="76" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="174" y="296" width="241" measuredWidth="241" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="422" y="295" text="Upload" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="174" y="232" width="83" text="2010" measuredWidth="83" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" x="174" y="376" width="271" height="56" text="Forecast Type = &quot;Auto&quot; --> Base On + Adjust&#xA;&#xA;Forecast Type = &quot;Manual&quot; -- > Forecast File" measuredWidth="271" measuredHeight="56" textAlignment="Left">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

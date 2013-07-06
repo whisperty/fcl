@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="48" y="136" width="569" height="487" text="Call4Bid List" measuredWidth="569" measuredHeight="487"/>
+  <widgets xsi:type="model:Table" x="72" y="161" width="527" height="424" text="Call4Bid, Year, Status, Period,&#xD;&#xA;FCL 2011 APMEA, 2011, Open, 2011-01-01 to 2011-12-31,[Enter]&#xD;&#xA;FCL 2011 APMEA, 2011, Open, 2011-01-01 to 2011-12-31,[Enter]&#xD;&#xA;FCL 2011 APMEA, 2011, Open, 2011-01-01 to 2011-12-31,[Enter]&#xD;&#xA;FCL 2011 APMEA, 2011, Open, 2011-01-01 to 2011-12-31,[Enter]&#xD;&#xA;&#xD;&#xA;" measuredWidth="527" measuredHeight="424">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

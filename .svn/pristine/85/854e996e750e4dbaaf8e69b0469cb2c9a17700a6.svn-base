@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="52" y="137" width="573" height="503" text="Invitations" measuredWidth="573" measuredHeight="503"/>
+  <widgets xsi:type="model:Table" x="62" y="158" width="553" height="443" text="Carrier, Full Name, Status,&#xD;&#xA;Carrier 1, Carrier 1, Active, [Suspend] [Delete]&#xD;&#xA;Carrier 2, Carrier 2, Suspended,[Active]    [Delete]&#xD;&#xA;Carrier 3, Carrier 3, Active,[Suspend] [Delete]&#xD;&#xA;" measuredWidth="553" measuredHeight="443">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="544" y="607" width="71" text="Invite" measuredWidth="71" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

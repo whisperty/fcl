@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" x="32" y="48" measuredWidth="800" measuredHeight="593" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../fd_base2.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" x="56" y="126" measuredWidth="569" measuredHeight="487">
+    <screen xsi:type="model:Screen" href="../mod/mod_call4bid_create.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="666" y="186" width="127" text="Create Call4Bid" measuredWidth="127" measuredHeight="23" background="#fce5cd">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

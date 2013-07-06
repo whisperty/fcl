@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" x="18" y="60" measuredWidth="800" measuredHeight="593" dimmed="true">
+    <screen xsi:type="model:Screen" href="../base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="52" y="106" text="Year:" measuredWidth="33" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="96" y="106" width="99" text="2011" measuredWidth="99" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="106" text="Management:" measuredWidth="78" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="286" y="106" width="187" text="KPI Management" measuredWidth="187" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" x="632" y="137" width="157" height="144" text="KPI Management" measuredWidth="157" measuredHeight="144"/>
+  <widgets xsi:type="model:Button" x="652" y="160" width="121" text="Rates" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="198" width="127" text="Shipments" measuredWidth="127" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="234" width="127" text="Acutal CPI Report" measuredWidth="127" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

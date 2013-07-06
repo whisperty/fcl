@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="52" y="137" width="573" height="504" text="Upload Shipment File" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Button" x="520" y="592" width="87" text="Save" measuredWidth="87" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="176" text="Carrier: " measuredWidth="49" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="80" y="208" text="Month: " measuredWidth="46" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="432" y="592" width="81" text="Cancel" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="78" y="241" text="Shipment File:" measuredWidth="81" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="174" y="241" width="241" measuredWidth="241" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="422" y="240" text="Upload" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="78" y="275" text="Remark: " measuredWidth="53" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="174" y="176" width="141" text="Carrier 1" measuredWidth="141" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="174" y="208" width="59" text="1" measuredWidth="59" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" x="174" y="271" width="321" height="162" measuredWidth="321" measuredHeight="162">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

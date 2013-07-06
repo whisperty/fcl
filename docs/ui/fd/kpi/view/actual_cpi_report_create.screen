@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" x="346" y="182" measuredWidth="800" measuredHeight="593" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../fd_base4.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="980" y="356" width="127" text="Acutal CPI Report" measuredWidth="127" measuredHeight="23" background="#fce5cd">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Master" x="373" y="259" measuredWidth="573" measuredHeight="504">
+    <screen xsi:type="model:Screen" href="../mod/mod_actual_cpi_report_create.screen#/"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

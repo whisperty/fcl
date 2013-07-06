@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="48" y="136" width="569" height="487" text="Create Call4Bid" measuredWidth="569" measuredHeight="487"/>
+  <widgets xsi:type="model:Label" x="96" y="176" text="Call4Bid Year:" measuredWidth="79" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="96" y="272" text="Bidding Template:" measuredWidth="102" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="192" y="272" width="201" measuredWidth="201" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="96" y="304" text="Period: " measuredWidth="46" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="192" y="176" width="113" text="2011" measuredWidth="113" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="400" y="271" text="Upload" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="96" y="208" text="Call4Bid Name: " measuredWidth="90" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="192" y="208" width="257" measuredWidth="257" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:DateField" x="192" y="304" width="113" text="  /  /  " measuredWidth="113" measuredHeight="21"/>
+  <widgets xsi:type="model:DateField" x="336" y="304" width="113" text="  /  /  " measuredWidth="113" measuredHeight="21"/>
+  <widgets xsi:type="model:Label" x="310" y="304" text="To" measuredWidth="19" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="96" y="584" text="Save" measuredWidth="44" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="166" y="584" text="Cancel" measuredWidth="56" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="96" y="240" text="Status: " measuredWidth="45" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="192" y="240" width="113" text="Open" measuredWidth="113" measuredHeight="21">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

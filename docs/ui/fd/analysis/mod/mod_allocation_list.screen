@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="100" y="113" width="573" height="504" text="Allocations" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Table" x="120" y="136" width="535" height="433" text="Senario Name, Constraint File, Allocation File, Date Time,&#xA;Senario 1, [[Download]], [[Download]], 2011-3-14 12:00:00,[[Delete]]&#xA;Senario 2, [[Download]], [[Download]], 2011-3-14 12:00:00,[[Delete]]&#xA;Senario 3, [[Download]], [[Download]], 2011-3-14 12:00:00,[[Delete]]" measuredWidth="535" measuredHeight="433">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="576" y="584" width="79" text="Create" measuredWidth="79" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

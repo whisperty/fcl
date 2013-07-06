@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" x="18" y="60" measuredWidth="800" measuredHeight="593" dimmed="true">
+    <screen xsi:type="model:Screen" href="../base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Group" x="632" y="137" width="157" height="105" text="Call4Bid Management" measuredWidth="157" measuredHeight="105"/>
+  <widgets xsi:type="model:Group" x="632" y="256" width="157" height="159" text="Quotation" measuredWidth="157" measuredHeight="159"/>
+  <widgets xsi:type="model:Button" x="652" y="160" width="121" text="Call4Bid Info" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="280" width="121" text="Invitations" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="312" width="121" text="RFQ Submissions" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="344" width="121" text="Check Rates" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="378" width="121" text="Benchmark" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" x="632" y="432" width="157" height="129" text="Analysis" measuredWidth="157" measuredHeight="129"/>
+  <widgets xsi:type="model:Button" x="652" y="456" width="121" text="Allocation" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="489" width="121" text="CPI Report" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="52" y="106" text="Year:" measuredWidth="33" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="96" y="106" width="99" text="2011" measuredWidth="99" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="106" text="Management:" measuredWidth="78" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="294" y="106" width="187" text="Call4Bid Management" measuredWidth="187" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="496" y="106" text="Call4Bid: " measuredWidth="56" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="547" y="105" width="187" text="FCL 2011 APMEA" measuredWidth="187" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="200" width="127" text="Call4Bid List" measuredWidth="127" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="652" y="520" width="121" text="Negociation Report" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

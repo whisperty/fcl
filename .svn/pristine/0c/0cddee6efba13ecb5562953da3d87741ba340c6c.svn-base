@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="100" y="113" width="573" height="504" text="Rates" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Table" x="120" y="192" width="535" height="369" text=",Call4Bid, Senario, Allocation File, Date Time&#xA;[],Call4Bid 1, Senario 1, [[Download]], 2010-1-12 12:00:00&#xA;[],Call4Bid 2, Senario 2, [[Download]], 2010-1-12 12:00:00&#xA;[],Call4Bid 3, Senario 3, [[Download]], 2010-1-12 12:00:00" measuredWidth="535" measuredHeight="369">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="120" y="576" width="79" text="Select All" measuredWidth="79" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="120" y="152" text="Call4Bid: " measuredWidth="56" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="175" y="152" width="162" text="Call4Bid 1" measuredWidth="162" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="353" y="152" text="Senario " measuredWidth="48" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" x="408" y="152" width="162" text="Senario 1" measuredWidth="162" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="592" y="151" width="63" text="Add" measuredWidth="63" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="208" y="576" width="65" text="Delete" measuredWidth="65" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="526" y="576" width="129" text="Download All Rates" measuredWidth="129" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

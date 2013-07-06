@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" x="313" y="263" measuredWidth="800" measuredHeight="593" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../fd_base4.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" x="346" y="340" measuredWidth="573" measuredHeight="504">
+    <screen xsi:type="model:Screen" href="../mod/mod_shipments_upload.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="947" y="401" width="127" text="Shipments" measuredWidth="127" measuredHeight="23" background="#fce5cd">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

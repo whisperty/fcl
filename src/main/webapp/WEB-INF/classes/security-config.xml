@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd">
+    
+    <http entry-point-ref="entryPoint">
+        <anonymous enabled="false"/>
+       
+    </http>
+    
+    <beans:bean id="entryPoint" 
+        class="org.springframework.flex.security3.FlexAuthenticationEntryPoint"/>
+	
+	<!-- 
+	<authentication-manager>
+	   <authentication-provider>
+	       <user-service>
+	        <user name="fd" password="fd" authorities="ROLE_FD" />
+            <user name="ad" password="ad" authorities="ROLE_ADMIN" />
+            <user name="cr" password="cr" authorities="ROLE_CR" />
+	       </user-service>
+	   </authentication-provider>
+	</authentication-manager>
+	 -->
+	
+	<authentication-manager>
+    	<authentication-provider user-service-ref='myUserDetailsService'/>
+  	</authentication-manager>
+
+  	<beans:bean id="myUserDetailsService" class="org.springframework.security.core.userdetails.jdbc.JdbcDaoImpl">
+    	<beans:property name="dataSource" ref="dataSource"/>
+    	<beans:property name="usersByUsernameQuery">
+    		<beans:value>
+    			select username, password, enabled from account where username = ?
+    		</beans:value>
+    	</beans:property>
+    	    	<beans:property name="authoritiesByUsernameQuery">
+    		<beans:value>
+    			select username, role from account where username = ?
+    		</beans:value>
+    	</beans:property>
+  	</beans:bean>
+  	
+
+</beans:beans>

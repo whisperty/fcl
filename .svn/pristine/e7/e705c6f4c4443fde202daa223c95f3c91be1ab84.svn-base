@@ -1,0 +1,233 @@
+/* CSS file */
+
+default {
+	fontFamily: "Tahoma";
+	fontSize: 12;
+	color: #000000;	
+}
+
+grid {
+	defaultCellWidth: 50;
+	defaultCellHeight: 24;
+	topHeaderHeight: 24;
+	leftHeaderWidth: 28;
+}
+
+.dataCell {
+	fontFamily: "Tahoma";
+	fontSize: 11;
+	color: #000000; 
+	backgroundColor: #FFFFFF;
+	overColor: #91AA9D;
+}
+
+.totalCell {
+	fontSize: 10;
+	fontWeight: bold;
+}
+
+.headerCell {
+	fontFamily: "Tahoma";
+	fontSize: 11;
+	color: #FFFFFF;
+	textIndent:2;
+	backgroundColor: #555555;
+	paddingLeft: 2;
+}
+
+.expandedHeaderCell {
+	textIndent: 2;
+	leftIcon: url:styles/grey/minus.png;
+	useHandCursor: true;
+}
+
+.collapsedHeaderCell {
+	textIndent: 2;
+	leftIcon: url:styles/grey/plus.png;
+	useHandCursor: true;
+}
+
+.hierarchyLink {
+	fontFamily: "Tahoma";
+	fontSize: 11;
+	color: #fdffd4;
+	underline: true;
+}
+.cellLink {
+	fontFamily: "Tahoma";
+	color: #969dab;
+	underline: true;
+	fontSize: 11;
+	useHandCursor: true;
+}
+.filterCell {
+	textIndent: 2;
+	paddingLeft: 4;
+	leftIcon: url:styles/grey/dropdown.png;
+	useHandCursor: true;
+}
+
+.filteredCell {
+	rightIcon: url:styles/grey/filter.png;
+}
+
+.vSortCell {
+	overIcon: url:styles/grey/arrow-down-yellow.png;
+}
+.vSortAscCell {
+	rightIcon: url:styles/grey/arrow-up.png;
+}
+.vSortDescCell {
+	rightIcon: url:styles/grey/arrow-down.png;
+}
+.hSortCell {
+	overIcon: url:styles/grey/arrow-right-yellow.png;
+}
+.hSortAscCell {
+	rightIcon: url:styles/grey/arrow-left.png;
+}
+.hSortDescCell {
+	rightIcon: url:styles/grey/arrow-right.png;
+}
+
+.level0 {
+	paddingLeft: 4;
+}
+.level1 {
+	backgroundColor: #666666;
+	paddingLeft: 17;
+}
+.level2 {
+	backgroundColor: #777777;
+	paddingLeft: 32;
+}
+.level3 {
+	backgroundColor: #888888;
+	paddingLeft: 47;
+}
+.level4 {
+	backgroundColor: #999999;
+	paddingLeft: 62;
+}
+.level5 {
+	backgroundColor: #AAAAAA;
+	paddingLeft: 77;
+}
+.level6 {
+	backgroundColor: #BBBBBB;
+	paddingLeft: 92;
+}
+.level7 {
+	backgroundColor: #CCCCCC;
+	paddingLeft: 107;
+}
+.level8 {
+	backgroundColor: #DDDDDD;
+	paddingLeft: 122;
+}
+
+sheetHeader {
+	lineColor: #FFFFFF;
+	fillColor: #CCCCCC;
+	textColor: #FFFFFF;
+}
+
+selectionBox {
+	borderColor: #969dab;
+	borderWidth: 2;
+	backgroundColor: #fff56a;
+	backgroundAlpha: 0.2;
+}
+
+chartsView {
+	minBarSize: 3;
+	legendStyleName: chartLegend;
+	chartXLabelStyleName: chartXLabel;
+	chartYLabelStyleName: chartYLabel;
+	chartPieLabelStyleName: chartPieLabel;
+	chartViewTitleStyleName: chartTitle;
+	chartViewPieCbxStyleName: chartPieCbx;
+	chartViewMeasureCbxStyleName: chartMeasureCbx;
+	colors: [#A50F15, #DE2D26, #FB6A4A, #FC9272, #FCBBA1, #ffdecd], [#08519C, #3182BD, #6BAED6, #8dbdd6, #abcfe4, #c1d9f8], [#216d00, #4ca528, #67c563, #7add7f, #b3e6b8, #cbebce], [#980043, #DD1C77, #DF65B0, #C994C7, #D4B9DA, #F1EEF6], [#993404, #D95F0E, #FE9929, #FEC44F, #FEE391, #fbf9b8], [#006D2C, #2CA25F, #66C2A4, #99D8C9, #CCECE6, #e1f5f1], [#8c0a94, #c60bd1, #d460cd, #e87be2, #f995f3, #fed6fc], [#999900, #CCCC00, #DDDD33, #D0D066, #CCCC99, #efefb3], [#002d9d, #0056e3, #338aff, #6eafff, #a2bfff, #c4caff]; 
+	singleColors: #E41A1C, #377EB8, #4DAF4A, #e042a6, #FF7F00, #59BBAB, #b96bdd, #EDC200, #2491DE; 
+	backgroundColor: #666666;
+	gridColor: #FFFFFF;
+}
+
+	chartLegend {
+		hideButtonStyleName: hideButton;
+		legendSeparatorStyleName: legendSeparator;
+		backgroundImage: Embed(source="styles/swf/skins.swf", symbol="LegendBgClass");
+	}
+
+		hideButton {
+			upSkin: Embed(source="styles/swf/skins.swf", symbol="LegendBtnSkinClass");	
+			overSkin: Embed(source="styles/swf/skins.swf", symbol="LegendBtnSkinClass");
+			downSkin: Embed(source="styles/swf/skins.swf", symbol="LegendBtnSkinClass");
+			fontFamily: "Arial";
+			fontSize: 10;
+			color: #006699;
+			textDecoration: underline;
+		}
+		
+		legendSeparator {
+			backgroundImage: Embed(source="styles/swf/skins.swf", symbol="LegendSeparatorClass");
+		}
+		
+	chartTitle {
+		fontFamily: "Arial";
+		fontSize: 12;
+		fontWeight: bold;
+		color: #000000; 
+	}
+	
+	chartXLabel {
+		fontFamily: "Arial";
+		fontSize: 10;
+		color: #FFFFFF; 
+	}
+
+	chartYLabel {
+		fontFamily: "Arial";
+		fontSize: 10;
+		color: #FFFFFF; 
+	}
+
+	chartPieLabel {
+		fontFamily: "Arial";
+		fontSize: 10;
+		color: #000000; 
+	}
+
+	chartPieCbx {
+		upSkin: Embed(source="styles/swf/skins.swf", symbol="ChartCbxSkinClass");
+		overSkin: Embed(source="styles/swf/skins.swf", symbol="ChartCbxSkinClass");
+		fontFamily: "Arial";
+		fontSize: 12;
+		textAlign: left;
+		leftMargin: 10;
+	}
+	
+	chartMeasureCbx {
+		upSkin: Embed(source="styles/swf/skins.swf", symbol="ChartCbxSkinClass");
+		overSkin: Embed(source="styles/swf/skins.swf", symbol="ChartCbxSkinClass");
+		downSkin: Embed(source="styles/swf/skins.swf", symbol="ChartCbxSkinClass");
+		fontFamily: "Arial";
+		fontSize: 12;
+		textAlign: left;
+		leftMargin: 10;
+	}
+	
+	chartToolTip {
+		shadow: 1;
+		rounded: 6;
+		stroke: 1;
+		borderColor: #C8C8C8;
+		backgroundColor: #ffffff;
+		titleColor: #000000;
+		titleWeight: bold;
+		titleSize: 10;
+		bodyColor: #000000;
+		bodyWeight: normal;
+		bodySize: 10;
+	}

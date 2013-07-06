@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="52" y="137" width="573" height="496" text="Check Exceptions Of Rates" measuredWidth="573" measuredHeight="496"/>
+  <widgets xsi:type="model:Table" x="62" y="248" width="553" height="329" text=",Carrier, History Rate to Check &#xD;&#xA;[x],carrier_1, 2010-11-16 01:46:18.351 &#xD;&#xA;[],carrier_2, 2010-11-15 20:30:44.291 &#xD;&#xA;[x],carrier_3, 2010-12-03 18:31:13.641 &#xD;&#xA;[],carrier_4, 2010-12-04 00:19:05.327 " measuredWidth="553" measuredHeight="329" selection="5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="562" y="592" text="Check" measuredWidth="53" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Note" x="320" y="448" width="233" height="45" text="This field is a combobox, you can select the history rate of the carrier" measuredWidth="233" measuredHeight="45">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="62" y="164" width="147" text="Rates extremely high/low:" measuredWidth="147" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="62" y="188" width="147" text="Transit time fast/slow:　" measuredWidth="147" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="208" y="168" text="higher than" measuredWidth="62" measuredHeight="13">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="277" y="165" text="110" measuredWidth="31" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="312" y="168" text="%, lower than" measuredWidth="71" measuredHeight="13">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="390" y="165" text="10" measuredWidth="24" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="416" y="169" text="% of average rate" measuredWidth="91" measuredHeight="13">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="208" y="191" text="higher than" measuredWidth="62" measuredHeight="13">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="277" y="188" text="110" measuredWidth="31" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="312" y="191" text="%, lower than" measuredWidth="71" measuredHeight="13">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="390" y="188" text="10" measuredWidth="24" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" x="416" y="192" text="% of average transit time" measuredWidth="132" measuredHeight="13">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="62" y="592" text="Select All" measuredWidth="69" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="62" y="220" width="179" text="Rate File to do the checking:" measuredWidth="179" measuredHeight="21">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

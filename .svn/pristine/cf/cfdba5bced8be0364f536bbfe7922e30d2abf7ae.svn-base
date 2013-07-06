@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html>
+        <head>
+                <title>Sourcing System - Full Container Load</title>
+                <link rel="icon" href="favicon.ico" type="image/x-icon" /> 
+				<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
+        </head>
+        <frameset >
+                <frame src="ui/Main.html" />
+                
+                <noframes>
+                        <body>
+                             please upgrade your browser to support frame.
+                        </body>
+                </noframes>
+        </frameset>
+</html>

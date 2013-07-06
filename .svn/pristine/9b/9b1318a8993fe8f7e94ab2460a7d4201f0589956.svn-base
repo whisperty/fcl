@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Group" x="52" y="137" width="573" height="504" text="Submissions" measuredWidth="573" measuredHeight="504"/>
+  <widgets xsi:type="model:Table" x="62" y="161" width="553" height="193" text="Carrier, Latest Bidding, No. Of Submissions&#xD;&#xA;carrier_1, 2010-11-16 01:46:18.351 [[download]],7&#xD;&#xA;carrier_2, 2010-11-15 20:30:44.291 [[download]],2&#xD;&#xA;carrier_3, 2010-12-03 18:31:13.641 [[download]],4&#xD;&#xA;carrier_4, 2010-12-04 00:19:05.327 [[download]], 3&#xD;&#xA;&#xD;&#xA;" measuredWidth="553" measuredHeight="193" selection="1">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="62" y="375" text="Bidding History Of Carrier carrier_1" measuredWidth="207" measuredHeight="21">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" x="62" y="399" width="553" height="193" text=",Carrier, Submit Time, &#xD;&#xA;[x],carrier_1, 2010-11-16 01:46:18.351 ,[[download]]&#xD;&#xA;[],carrier_1, 2010-11-15 20:30:44.291 ,[[download]]&#xD;&#xA;[x],carrier_1, 2010-12-03 18:31:13.641 ,[[download]]&#xD;&#xA;[],carrier_1, 2010-12-04 00:19:05.327 ,[[download]]&#xD;&#xA;" measuredWidth="553" measuredHeight="193" selection="5">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="546" y="604" text="Compare" measuredWidth="69" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

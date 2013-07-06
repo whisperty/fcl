@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" x="104" y="151" measuredWidth="800" measuredHeight="593" dimmed="true">
+    <screen xsi:type="model:Screen" href="../../fd_base.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" x="128" y="227" measuredWidth="573" measuredHeight="504">
+    <screen xsi:type="model:Screen" href="../mod/mod_benchmark.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="738" y="469" width="121" text="Benchmark" measuredWidth="121" measuredHeight="23" background="#fce5cd">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

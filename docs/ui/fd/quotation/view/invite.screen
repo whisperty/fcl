@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" x="10" y="10" width="367" height="463" text="Inivate Carrier" measuredWidth="367" measuredHeight="463"/>
+  <widgets xsi:type="model:Table" x="24" y="39" width="337" height="394" text=",Carrier, Full Name&#xD;&#xA;[], Carrier 4, Carrier 4 &#xD;&#xA;[], Carrier 5, Carrier 5&#xD;&#xA;[x], Carrier 6, Carrier 7&#xD;&#xA;[], Carrier 7, Carrier 8" measuredWidth="337" measuredHeight="394">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="313" y="442" text="Inivte" measuredWidth="48" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>
